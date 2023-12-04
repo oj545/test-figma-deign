@@ -1,5 +1,6 @@
 import React from "react";
 import "./ui.css";
+
 function Bubble({ size, position, color1, color2, rotate }) {
   return (
     <div

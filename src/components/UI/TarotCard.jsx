@@ -1,5 +1,5 @@
 import React from "react";
-import backcard from "../assets/backCard.jpeg";
+import backcard from "../../assets/backCard.jpeg";
 import "./ui.css";
 
 function TarotCard({ image }) {
