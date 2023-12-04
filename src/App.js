@@ -1,6 +1,7 @@
 import Bubble from "./components/UI/Bubble";
 import HeroSection from "./components/sections/heroSection";
 import Navbar from "./components/navbar";
+import MarketingSection from "./components/sections/MarketingSection";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       </header>
       <main>
         <HeroSection />
-        <HeroSection />
+        <MarketingSection />
       </main>
       {/* <HeroSection />
       <Bubble
