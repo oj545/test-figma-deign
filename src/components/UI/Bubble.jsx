@@ -1,6 +1,6 @@
 import React from "react";
 import "./ui.css";
-
+// `linear-gradient(to right, ${color1} 0%, ${color2} 50%, #0000ff 100%)`
 function Bubble({ size, position, color1, color2, rotate }) {
   return (
     <div
@@ -12,7 +12,7 @@ function Bubble({ size, position, color1, color2, rotate }) {
         width: `${size}px`,
         height: `${size}px`,
 
-        backgroundImage: `linear-gradient(${rotate}deg, ${color1},${color2})`,
+        background: `linear-gradient(${rotate}deg, ${color1} 60% , ${color2}  )`,
       }}></div>
   );
 }

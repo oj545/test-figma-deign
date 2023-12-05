@@ -3,8 +3,8 @@
   background: linear-gradient(to bottom, #e21c34, #500b28);
   border-radius: 50%;
   margin-left: 100px;
-  box-shadow: inset 10px 10px 10px rgba(17, 14, 14, 0.466);
-  filter: blur(20px);
+  box-shadow: inset 10px 10px 10px #b3a8f8;
+  filter: blur(15px);
   z-index: 0;
 }
 /*------------- ui cards-------------- */
