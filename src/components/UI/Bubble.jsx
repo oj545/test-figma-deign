@@ -12,7 +12,7 @@ function Bubble({ size, position, color1, color2, rotate }) {
         width: `${size}px`,
         height: `${size}px`,
 
-        background: `linear-gradient(${rotate}deg, ${color1} 60% , ${color2}  )`,
+        background: `linear-gradient(to left, ${color1} 60% , ${color2}  )`,
       }}></div>
   );
 }

@@ -10,14 +10,14 @@ const bubbles = [
     position: { top: 7, left: 50 },
     rotate: 100,
     color1: "#F8B5D3",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
-    size: 200,
+    size: 80,
     position: { top: 35, left: 35 },
     rotate: 30,
 
-    color1: "#b3a8f8",
+    color1: "#8B78FF",
     color2: "#BBF3FD",
   },
   {
@@ -25,35 +25,35 @@ const bubbles = [
     position: { top: 18, left: 8 },
     rotate: 100,
     color1: "#BBF3FD",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 200,
     position: { top: 70, left: 20 },
     rotate: 30,
     color1: "#F8B5D3",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 150,
     position: { top: 55, left: 70 },
     rotate: 80,
     color1: "#BBF3FD",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 100,
     position: { top: 107, left: 50 },
     rotate: 100,
     color1: "#F8B5D3",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 80,
     position: { top: 118, left: 8 },
     rotate: 100,
     color1: "#BBF3FD",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
 
   {
@@ -61,14 +61,14 @@ const bubbles = [
     position: { top: 150, left: 40 },
     rotate: 100,
     color1: "#F8B5D3",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 180,
     position: { top: 190, left: 20 },
     rotate: 30,
     color1: "#BBF3FD",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 170,
@@ -76,21 +76,21 @@ const bubbles = [
     rotate: 80,
 
     color1: "#F8B5D3",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 100,
     position: { top: 207, left: 50 },
     rotate: 100,
     color1: "#F8B5D3",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 80,
     position: { top: 218, left: 8 },
     rotate: 100,
     color1: "#BBF3FD",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
 
   {
@@ -98,7 +98,7 @@ const bubbles = [
     position: { top: 250, left: 40 },
     rotate: 100,
     color1: "#BBF3FD",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 180,
@@ -106,14 +106,14 @@ const bubbles = [
     rotate: 90,
 
     color1: "#F8B5D3",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 120,
     position: { top: 240, left: 10 },
     rotate: 30,
 
-    color1: "#b3a8f8",
+    color1: "#8B78FF",
     color2: "#BBF3FD",
   },
   {
@@ -122,14 +122,14 @@ const bubbles = [
     rotate: 80,
 
     color1: "#BBF3FD",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 80,
     position: { top: 350, left: 40 },
     rotate: 100,
     color1: "#BBF3FD",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 180,
@@ -137,7 +137,7 @@ const bubbles = [
     rotate: 90,
 
     color1: "#BBF3FD",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 120,
@@ -145,20 +145,20 @@ const bubbles = [
     rotate: 30,
 
     color1: "#F8B5D3",
-    color2: "#b3a8f8",
+    color2: "#8B78FF",
   },
   {
     size: 80,
     position: { top: 330, left: 65 },
     rotate: 30,
-    color1: "#b3a8f8",
+    color1: "#8B78FF",
     color2: "#BBF3FD",
   },
   {
     size: 270,
     position: { top: 365, left: 80 },
     rotate: -10,
-    color1: "#b3a8f8",
+    color1: "#8B78FF",
     color2: "#BBF3FD",
   },
 ];

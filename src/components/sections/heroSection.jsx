@@ -23,11 +23,19 @@ function HeroSection() {
         </div>
         <div dir="rtl" className="hero-content">
           <h1 className="section-headline hero-headline">חוחמת הטרוט</h1>
-          <p className="content content-center ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            esse, consequatur adipisci odit optio deleniti itaque fugiat
-            voluptatibus eos explicabo! Voluptate aliquid aspernatur et libero.
-            Illum provident modi nostrum temporibus.
+
+          <p dir="rtl" className="content content-center ">
+            <span>האם אתה מחפש תשובות לשאלות העמוקות ביותר של החיים? </span>
+            <br />
+            האם
+            <span>
+              אתה רוצה הבנה מעמיקה יותר של המסע שלך ושל האתגרים העומדים בפניך?
+            </span>
+            <br />
+            <span>
+              קלפי טארוט מציעים דרך עמוקה ומאירת עיניים להתחבר לחוכמת היקום
+            </span>
+            <br />
           </p>
           <div className="whatsapp-link">
             <a

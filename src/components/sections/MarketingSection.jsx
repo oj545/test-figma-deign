@@ -2,6 +2,7 @@ import React from "react";
 import "./CSS/marketingSection.css";
 import theSunCard from "../../assets/theSun.jpg";
 import TarotCard from "../UI/TarotCard";
+
 function MarketingSection() {
   return (
     <section className="section">
