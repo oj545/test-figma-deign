@@ -15,6 +15,7 @@
   transform-style: preserve-3d;
   border-radius: 5px;
   transition: transform 2s ease-in-out;
+  /* box-shadow: 5px 5px 5px #9485f8; */
 }
 .card-image {
   padding: 1rem;
@@ -34,7 +35,7 @@
   aspect-ratio: 16/24;
   background-color: #fffefe;
   border: 1px solid #838181;
-  box-shadow: 5px 5px 5px 2px rgb(0, 0, 0, 0.2);
+  box-shadow: 6px 6px 6px 2px #b4a9fc;
   display: flex;
   justify-content: center;
   align-items: center;

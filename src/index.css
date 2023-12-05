@@ -24,10 +24,11 @@ section {
   flex-direction: column;
   align-items: center;
   margin-bottom: 20rem;
+  padding: 0 10rem;
 }
 .grid {
   display: grid;
-  width: 80vw;
+  width: 100%;
   grid-template-columns: 1fr 1fr;
 }
 .content {
@@ -38,11 +39,11 @@ section {
 }
 .section-headline {
   color: #4331b6;
-  font-size: 4rem;
-  margin-bottom: 7rem;
+  font-size: 7.2rem;
+  margin-bottom: 12rem;
 }
 .max-size {
-  max-width: 1200px;
+  max-width: 1500px;
 }
 .center-element {
   margin-left: 50%;

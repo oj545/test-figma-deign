@@ -32,7 +32,7 @@ const bubbles = [
 
 function HeroSection() {
   return (
-    <section className="center-element max-size">
+    <section className="section hero-section">
       {bubbles.map((bubble, i) => {
         const { size, position, rotate, color1, color2 } = bubble;
         return (
@@ -46,21 +46,20 @@ function HeroSection() {
           />
         );
       })}
-      <div className="hero-layout">
-        <div className="grid max-size">
-          <div>
-            <img className="hero-card card1" src={heroCard} alt="tarot card" />
-            <img className="hero-card card2" src={goldCup} alt="tarot card" />
-          </div>
-          <div dir="rtl" className="hero-content">
-            <h1 className="section-headline">חוחמת הטרוט</h1>
-            <p className="content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis esse, consequatur adipisci odit optio deleniti itaque
-              fugiat voluptatibus eos explicabo! Voluptate aliquid aspernatur et
-              libero. Illum provident modi nostrum temporibus.
-            </p>
-          </div>
+
+      <div className="grid max-size hero-layout  ">
+        <div className="hero-cards">
+          <img className="hero-card card1" src={heroCard} alt="tarot card" />
+          <img className="hero-card card2" src={goldCup} alt="tarot card" />
+        </div>
+        <div dir="rtl" className="hero-content">
+          <h1 className="section-headline">חוחמת הטרוט</h1>
+          <p className="content content-center ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            esse, consequatur adipisci odit optio deleniti itaque fugiat
+            voluptatibus eos explicabo! Voluptate aliquid aspernatur et libero.
+            Illum provident modi nostrum temporibus.
+          </p>
         </div>
       </div>
     </section>

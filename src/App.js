@@ -2,6 +2,8 @@ import Bubble from "./components/UI/Bubble";
 import HeroSection from "./components/sections/heroSection";
 import Navbar from "./components/navbar";
 import MarketingSection from "./components/sections/MarketingSection";
+import AboutSection from "./components/sections/AboutSection";
+import ServicesSection from "./components/sections/ServicesSection";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <main>
         <HeroSection />
         <MarketingSection />
+        <AboutSection />
+        <ServicesSection />
       </main>
       {/* <HeroSection />
       <Bubble

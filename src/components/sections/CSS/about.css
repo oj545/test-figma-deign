@@ -1,0 +1,23 @@
+.about-section {
+  width: 80%;
+  margin-bottom: 35rem;
+}
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(20deg, #7b66ff, #f83a8f);
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  margin-bottom: 5rem;
+}
+.my-image {
+  background-color: white;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+}
+.about-content {
+  text-align: center;
+}
