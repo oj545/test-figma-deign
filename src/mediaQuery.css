@@ -62,6 +62,12 @@
 
     padding: 4vw;
   }
+  .call img {
+    width: 3.8rem;
+  }
+  .call p {
+    font-size: 2.5rem;
+  }
 }
 @media (max-width: 650px) {
   .hero-cards {
@@ -77,12 +83,16 @@
     bottom: 7%;
     left: 10%;
   }
+  .call p {
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   html {
     font-size: 55%;
   }
 }
+
 @media (max-width: 400px) {
   html {
     font-size: 52%;

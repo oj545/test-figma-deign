@@ -18,3 +18,19 @@
   padding-right: 2rem;
   height: 100%;
 }
+.logo img {
+  width: 15rem;
+}
+.call {
+  display: flex;
+  align-items: center;
+}
+.call img {
+  width: 4.4rem;
+}
+.call p {
+  font-size: 3rem;
+  color: #6b4ce7;
+  font-weight: 600;
+  margin-left: 1rem;
+}

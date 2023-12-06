@@ -1,6 +1,6 @@
 import Bubble from "./components/UI/Bubble";
 import HeroSection from "./components/sections/heroSection";
-import Navbar from "./components/navbar";
+import Navbar from "./components/UI/navbar";
 import MarketingSection from "./components/sections/MarketingSection";
 import AboutSection from "./components/sections/AboutSection";
 import ServicesSection from "./components/sections/ServicesSection";
@@ -164,10 +164,16 @@ const bubbles = [
 ];
 
 function App() {
+  const phoneNumber = "+972505336334";
+  const message = "שלום קטיה אני מעוניין/נת לקבוע פגישה";
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+    message
+  )}`;
+
   return (
     <>
       <header>
-        <Navbar />
+        <Navbar whatsappUrl={whatsappUrl} />
       </header>
       <main>
         {bubbles.map((bubble, i) => {
@@ -183,7 +189,7 @@ function App() {
             />
           );
         })}
-        <HeroSection />
+        <HeroSection whatsappUrl={whatsappUrl} />
         <MarketingSection />
         <AboutSection />
         <ServicesSection />

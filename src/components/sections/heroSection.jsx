@@ -7,13 +7,7 @@ import whatsapp from "../../assets/whatsApp.png";
 import goldCup from "../../assets/goldCup.jpg";
 import Bubble from "../UI/Bubble";
 
-function HeroSection() {
-  const phoneNumber = "+972505336334";
-  const message = "שלום קטיה אני מעוניין/נת לקבוע פגישה";
-  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
-    message
-  )}`;
-
+function HeroSection({ whatsappUrl }) {
   return (
     <section className="section hero-section">
       <div className="grid max-size hero-layout  ">
@@ -39,8 +33,8 @@ function HeroSection() {
           </p>
           <div className="whatsapp-link">
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-              <p>קטיה שיינגיזכט</p>
-              <img src={whatsapp} alt="whatapp-icon" />
+              <p>לקביעת פגישה</p>
+              {/* <img src={whatsapp} alt="whatapp-icon" /> */}
             </a>
           </div>
         </div>
