@@ -7,11 +7,11 @@ function TarotCard({ image }) {
     <>
       <div className="tarot-card">
         <div className="front">
-          <img src={image} className="card-image" />
+          <img src={image} alt="" className="card-image" />
         </div>
 
         <div className="back">
-          <img src={backcard} className="card-image" />
+          <img src={backcard} alt="" className="card-image" />
         </div>
       </div>
     </>

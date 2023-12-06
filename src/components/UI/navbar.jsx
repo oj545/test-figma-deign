@@ -12,7 +12,7 @@ function Navbar({ whatsappUrl }) {
         </div>
         <div className="call">
           <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-            <img src={whatsApp} />
+            <img src={whatsApp} alt="" />
           </a>
           <p>050-533-6334</p>
         </div>
