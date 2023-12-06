@@ -8,7 +8,7 @@ function Navbar({ whatsappUrl }) {
     <div className="navbar ">
       <div className="nav-items center-element max-size">
         <div className="logo">
-          <img src={logo} alt="logo image" />
+          <img src={logo} alt="" />
         </div>
         <div className="call">
           <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
