@@ -1,11 +1,7 @@
 import React from "react";
-import TarotCard from "../UI/TarotCard";
 import heroCard from "../../assets/heroCard.jpg";
 import "./CSS/herosection.css";
-import whatsapp from "../../assets/whatsApp.png";
-
 import goldCup from "../../assets/goldCup.jpg";
-import Bubble from "../UI/Bubble";
 
 function HeroSection({ whatsappUrl }) {
   return (
@@ -34,7 +30,6 @@ function HeroSection({ whatsappUrl }) {
           <div className="whatsapp-link">
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
               <p>לקביעת פגישה</p>
-              {/* <img src={whatsapp} alt="whatapp-icon" /> */}
             </a>
           </div>
         </div>
