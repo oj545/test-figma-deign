@@ -38,10 +38,7 @@ function HeroSection() {
             <br />
           </p>
           <div className="whatsapp-link">
-            <a
-              classNamehref={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer">
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
               <p>קטיה שיינגיזכט</p>
               <img src={whatsapp} alt="whatapp-icon" />
             </a>
