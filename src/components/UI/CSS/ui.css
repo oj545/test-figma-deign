@@ -3,8 +3,8 @@
   background: linear-gradient(to bottom, #e21c34, #500b28);
   border-radius: 50%;
   margin-left: 100px;
-  box-shadow: inset 10px 10px 10px #b3a8f8;
-  filter: blur(30px);
+
+  filter: blur(15px);
   z-index: 0;
 }
 /*------------- ui cards-------------- */
@@ -41,6 +41,7 @@
   align-items: center;
   padding: 1rem;
   backface-visibility: hidden;
+  animation: cardRotate 2s infinite;
 }
 .back {
   display: flex;
@@ -49,8 +50,16 @@
   transform: rotateY(180deg);
 }
 
-.tarot-card:hover {
-  transform: rotateY(180deg);
-  transition: transform 2s ease-in-out;
+.card-rotate {
+  transform-origin: center;
+  animation: rotateCard 6s infinite linear;
 }
 /*------------- ui cards-------------- */
+@keyframes rotateCard {
+  0% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}

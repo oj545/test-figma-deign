@@ -1,5 +1,5 @@
 import React from "react";
-import "./ui.css";
+import "./CSS/ui.css";
 // `linear-gradient(to right, ${color1} 0%, ${color2} 50%, #0000ff 100%)`
 function Bubble({ size, position, color1, color2, rotate }) {
   return (
@@ -9,10 +9,10 @@ function Bubble({ size, position, color1, color2, rotate }) {
         position: "absolute",
         top: `${position?.top}%`,
         left: `${position?.left}%`,
-        width: `${size}px`,
-        height: `${size}px`,
+        width: `${size}em`,
+        height: `${size}em`,
 
-        background: `linear-gradient(to left, ${color1} 60% , ${color2}  )`,
+        background: `linear-gradient(to left, ${color1} 0%, ${color2} 100% )`,
       }}></div>
   );
 }

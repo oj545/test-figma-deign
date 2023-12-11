@@ -1,5 +1,6 @@
 .navbar {
   position: fixed;
+
   top: 0;
   left: 0;
   width: 100vw;
@@ -13,23 +14,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-items: center;
   width: 100%;
   padding: 0 2rem;
   padding-right: 2rem;
   height: 100%;
 }
 .logo img {
-  width: 15rem;
+  max-height: 4.5vh;
+  min-height: 4.5vh;
+  aspect-ratio: 16/4.5;
 }
 .call {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .call img {
-  width: 4.4rem;
+  max-height: 4.5vh;
+  min-height: 4.5vh;
+  aspect-ratio: 1/1;
 }
 .call p {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #6b4ce7;
   font-weight: 600;
   margin-left: 1rem;

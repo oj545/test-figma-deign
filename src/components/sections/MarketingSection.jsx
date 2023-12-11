@@ -8,7 +8,7 @@ function MarketingSection() {
     <section className="section">
       <h2 className="section-headline">התרונות התרות</h2>
       <div className="grid max-size marketing-layout">
-        <div className="marketing-card1 ">
+        <div className="marketing-card1  ">
           <TarotCard image={theSunCard} />
         </div>
         <p dir="rtl" className="marketing-content content content-center">
@@ -18,7 +18,7 @@ function MarketingSection() {
           הרוחני שלך.
         </p>
       </div>
-      <div className="grid max-size">
+      {/* <div className="grid max-size">
         <p dir="rtl" className="marketing-content2 content content-center ">
           קלפי טארוט יכולים לספק יותר מאשר הצצה לעתיד. הם מחזיקים את המפתחות
           לפתיחת המסתורין של המסע הייחודי שלך. על ידי קריה בטרוט אנו הולכים מעבר
@@ -28,7 +28,7 @@ function MarketingSection() {
         <div className="marketing-card2">
           <TarotCard image={theSunCard} />
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

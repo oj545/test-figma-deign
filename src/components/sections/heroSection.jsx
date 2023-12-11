@@ -2,15 +2,12 @@ import React from "react";
 import heroCard from "../../assets/heroCard.jpg";
 import "./CSS/herosection.css";
 import goldCup from "../../assets/goldCup.jpg";
+import TarotCard from "../UI/TarotCard";
 
 function HeroSection({ whatsappUrl }) {
   return (
     <section className="section hero-section">
       <div className="grid max-size hero-layout  ">
-        <div className="hero-cards">
-          <img className="hero-card card1" src={heroCard} alt="tarot card" />
-          <img className="hero-card card2" src={goldCup} alt="tarot card" />
-        </div>
         <div dir="rtl" className="hero-content">
           <h1 className="section-headline hero-headline">חוחמת הטרוט</h1>
 
@@ -32,6 +29,9 @@ function HeroSection({ whatsappUrl }) {
               <p>לקביעת פגישה</p>
             </a>
           </div>
+        </div>
+        <div className="hero-cards">
+          <TarotCard image={goldCup} />
         </div>
       </div>
     </section>

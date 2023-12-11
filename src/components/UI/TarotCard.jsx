@@ -1,11 +1,11 @@
 import React from "react";
 import backcard from "../../assets/backCard.jpeg";
-import "./ui.css";
+import "./CSS/ui.css";
 
 function TarotCard({ image }) {
   return (
     <>
-      <div className="tarot-card">
+      <div className="tarot-card card-rotate">
         <div className="front">
           <img src={image} alt="" className="card-image" />
         </div>
