@@ -1,6 +1,6 @@
 import React from "react";
 import "./CSS/marketingSection.css";
-import theSunCard from "../../assets/theSun.jpg";
+import empressCard from "../../assets/empress.jpg";
 import TarotCard from "../UI/TarotCard";
 
 function MarketingSection() {
@@ -8,15 +8,13 @@ function MarketingSection() {
     <section className="section">
       <h2 className="section-headline">התרונות התרות</h2>
       <div className="grid max-size marketing-layout">
-        <div className="marketing-card1  ">
-          <TarotCard image={theSunCard} />
-        </div>
         <p dir="rtl" className="marketing-content content content-center">
-          החיים הם סדרה של צומת דרכים, והטארוט הוא המצפן שלך. קבל בהירות לגבי
-          החלטות, גדולות או קטנות, כאשר הקלפים מאירים את הנתיבים הפוטנציאליים
-          קדימה. עם טארוט, אתה לא רק מנחש; אתה עושה בחירות מושכלות בהתאם למסע
-          הרוחני שלך.
+          קלפי טארוט מחזיקים את המפתחות לפתיחת המסתורין של המסע הייחודי של האדם.
+          הם מאירים את הנתיבים הפוטנציאליים ומשמשים כמצפן על מנת לנוע קדימה.
         </p>
+        <div className="marketing-card1  ">
+          <TarotCard image={empressCard} />
+        </div>
       </div>
       {/* <div className="grid max-size">
         <p dir="rtl" className="marketing-content2 content content-center ">

@@ -31,13 +31,13 @@ section {
 .grid {
   display: grid;
   width: 100%;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 35% 65%;
 }
 .content {
   font-size: 3rem;
   font-weight: 500;
   line-height: 1.5;
-  color: #614afa;
+  color: #533fd2;
   z-index: 10;
 }
 .section-headline {

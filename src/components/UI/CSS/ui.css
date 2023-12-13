@@ -10,6 +10,7 @@
 /*------------- ui cards-------------- */
 .tarot-card {
   width: 25rem;
+
   aspect-ratio: 16/24;
   position: relative;
   transform-style: preserve-3d;
@@ -20,11 +21,6 @@
 .card-image {
   padding: 1rem;
   width: 24rem;
-  aspect-ratio: 16/24;
-}
-.box {
-  background-color: red;
-  width: 100px;
   aspect-ratio: 16/24;
 }
 

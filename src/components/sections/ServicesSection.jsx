@@ -3,12 +3,13 @@ import "./CSS/servicesSection.css";
 function ServicesSection() {
   return (
     <section className="section services-section center-element max-size">
-      <h2 className="section-headline">איך זה עובד</h2>
+      <h2 className="section-headline">פתיחה בקלפי טארוט</h2>
       <p dir="rtl" className="content services-content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-        consectetur animi, labore optio impedit quibusdam commodi fuga ipsum
-        libero aperiam provident corrupti repudiandae corporis placeat eos
-        officia. Odit, est enim.
+        בפגישה שאורכה כשעה, אנו נחדד את שאלת הקליינט, שתהיה ספציפית ורלוונטית
+        לחייו, נבין את המסרים שמסתתרים בסמלי הקלפים, ונבחן את האפשרויות השונות
+        של פעולה. בסופו של דבר, רק האדם עצמו בוחר ואחראי על גורלו ועל עתידו,
+        ופתיחת הקלפים עוזרת בבחירת הנתיב המתאים ביותר עבורו בזמן הפתיחה. אני
+        מזמינה אתכם באהבה רבה לצאת איתי למסע הקסום בעזרת קלפי הטארוט.
       </p>
     </section>
   );

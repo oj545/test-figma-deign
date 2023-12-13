@@ -1,7 +1,7 @@
 import React from "react";
 import heroCard from "../../assets/heroCard.jpg";
 import "./CSS/herosection.css";
-import goldCup from "../../assets/goldCup.jpg";
+import theSun from "../../assets/theSun.jpg";
 import TarotCard from "../UI/TarotCard";
 
 function HeroSection({ whatsappUrl }) {
@@ -9,21 +9,18 @@ function HeroSection({ whatsappUrl }) {
     <section className="section hero-section">
       <div className="grid max-size hero-layout  ">
         <div dir="rtl" className="hero-content">
-          <h1 className="section-headline hero-headline">חוחמת הטרוט</h1>
+          <h1 className="section-headline hero-headline">חוכמת הטארוט</h1>
 
-          <p dir="rtl" className="content content-center ">
-            <span>האם אתה מחפש תשובות לשאלות העמוקות ביותר של החיים? </span>
-            <br />
-            האם
-            <span>
-              אתה רוצה הבנה מעמיקה יותר של המסע שלך ושל האתגרים העומדים בפניך?
-            </span>
-            <br />
-            <span>
-              קלפי טארוט מציעים דרך עמוקה ומאירת עיניים להתחבר לחוכמת היקום
-            </span>
-            <br />
-          </p>
+          <div className="content content-center ">
+            <p dir="rtl">האם תהיה לי זוגיות בתקופה הקרובה? </p>
+            <p dir="rtl">האם עלי להחליף את מקום העבודה בשנה הקרובה?</p>
+            <p dir="rtl">אני נמצא(ת) בצומת דרכים, מה עלי לבחור?</p>
+            <p dir="rtl">
+              אם את(ה) רוצה הבנה מעמיקה יותר של המסע שלך ושל האתגרים העומדים
+              בפניך, קלפי טארוט מציעים דרך עמוקה ומאירת עיניים להתחבר לחוכמת
+              היקום.
+            </p>
+          </div>
           <div className="whatsapp-link">
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
               <p>לקביעת פגישה</p>
@@ -31,7 +28,7 @@ function HeroSection({ whatsappUrl }) {
           </div>
         </div>
         <div className="hero-cards">
-          <TarotCard image={goldCup} />
+          <TarotCard image={theSun} />
         </div>
       </div>
     </section>

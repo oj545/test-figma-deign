@@ -4,14 +4,16 @@
 }
 .hero-section {
   margin-top: 8vh;
+  z-index: 100;
 }
 .hero-layout {
   position: relative;
   display: flex;
-
   justify-content: center;
-
   z-index: 1;
+}
+.content-center p {
+  margin-bottom: 2rem;
 }
 .hero-cards {
   grid-row: 1;
@@ -31,9 +33,9 @@
   padding: 0.5rem 1rem;
   padding-bottom: 0.9rem;
   width: 25rem;
-  border-radius: 50px;
-  margin-right: 2rem;
-  border: 3px solid #4331b6;
+  border-radius: 10px;
+
+  border: 1px solid #007185;
   text-decoration: none;
   background-color: #d0f8ff;
 }
