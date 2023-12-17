@@ -19,9 +19,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-/* main {
-  overflow-x: hidden;
-} */
 
 section {
   display: flex;
