@@ -1,4 +1,4 @@
-import Bubble from "./components/UI/Bubble";
+// import Bubble from "./components/UI/Bubble";
 import HeroSection from "./components/sections/heroSection";
 import Navbar from "./components/UI/navbar";
 import MarketingSection from "./components/sections/MarketingSection";
