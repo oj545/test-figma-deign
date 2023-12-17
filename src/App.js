@@ -176,7 +176,7 @@ function App() {
         <Navbar whatsappUrl={whatsappUrl} />
       </header>
       <main>
-        {bubbles.map((bubble, i) => {
+        {/* {bubbles.map((bubble, i) => {
           const { size, position, rotate, color1, color2 } = bubble;
           return (
             <Bubble
@@ -188,7 +188,7 @@ function App() {
               color2={color2}
             />
           );
-        })}
+        })} */}
         <HeroSection whatsappUrl={whatsappUrl} />
         <MarketingSection />
         <AboutSection />
