@@ -1,14 +1,14 @@
 import React from "react";
 import "./CSS/ui.css";
-// `linear-gradient(to right, ${color1} 0%, ${color2} 50%, #0000ff 100%)`
+
 function Bubble({ size, position, color1, color2, rotate }) {
   return (
     <div
       className="bubble "
       style={{
         position: "absolute",
-        top: `${position?.top}%`,
-        left: `${position?.left}%`,
+        top: `${position?.top}vh`,
+        left: `${position?.left}vw`,
         width: `${size}em`,
         height: `${size}em`,
 
