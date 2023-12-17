@@ -61,9 +61,6 @@
   }
 }
 @media (max-width: 650px) {
-  body {
-    overflow: auto;
-  }
   .card2 {
     position: absolute;
     bottom: 7%;
