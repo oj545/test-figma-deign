@@ -33,11 +33,11 @@
   padding: 0.5rem 1rem;
   padding-bottom: 0.9rem;
   width: 25rem;
-  border-radius: 10px;
+  border-radius: 50px;
 
   border: 1px solid #007185;
   text-decoration: none;
-  background-color: #d0f8ff;
+  background-color: #79e9fd;
 }
 .whatsapp-link img {
   transform: translateY(-8%);
@@ -50,8 +50,8 @@
 .whatsapp-link p {
   display: flex;
   align-items: center;
-  color: #6b4ce7;
-  font-weight: bold;
+  color: #4d29df;
+  font-weight: 600;
   align-items: center;
   font-size: 2.5rem;
 }

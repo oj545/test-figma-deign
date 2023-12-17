@@ -1,5 +1,4 @@
 import React from "react";
-import heroCard from "../../assets/heroCard.jpg";
 import "./CSS/herosection.css";
 import theSun from "../../assets/theSun.jpg";
 import TarotCard from "../UI/TarotCard";

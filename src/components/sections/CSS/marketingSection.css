@@ -1,12 +1,14 @@
 .marketing-layout {
   margin-bottom: 18rem;
 }
-.marketing-card2 {
-  margin-left: auto;
-}
+
 .marketing-card1 {
   display: flex;
   justify-content: center;
   margin-right: auto;
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
+}
+.marketing-content {
+  display: flex;
+  align-items: center;
 }

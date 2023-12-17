@@ -36,7 +36,9 @@
     align-items: center;
     /* margin-bottom: 2rem; */
   }
-
+  .marketing-content {
+    margin-top: 6rem;
+  }
   .content-center {
     text-align: center;
   }
