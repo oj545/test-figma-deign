@@ -177,21 +177,20 @@ function App() {
         <Navbar whatsappUrl={whatsappUrl} />
       </header>
       <main>
-        <div>
-          {bubbles.map((bubble, i) => {
-            const { size, position, rotate, color1, color2 } = bubble;
-            return (
-              <Bubble
-                key={i}
-                size={size}
-                position={position}
-                rotate={rotate}
-                color1={color1}
-                color2={color2}
-              />
-            );
-          })}
-        </div>
+        {bubbles.map((bubble, i) => {
+          const { size, position, rotate, color1, color2 } = bubble;
+          return (
+            <Bubble
+              key={i}
+              size={size}
+              position={position}
+              rotate={rotate}
+              color1={color1}
+              color2={color2}
+            />
+          );
+        })}
+
         <HeroSection whatsappUrl={whatsappUrl} />
         <MarketingSection />
         <AboutSection />

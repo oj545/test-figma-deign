@@ -7,10 +7,10 @@ function Bubble({ size, position, color1, color2, rotate }) {
       className="bubble "
       style={{
         position: "absolute",
-        top: `${position?.top}vh`,
-        left: `${position?.left}vw`,
-        width: `${size}em`,
-        height: `${size}em`,
+        top: `${position?.top}%`,
+        left: `${position?.left}%`,
+        width: `${size}rem`,
+        height: `${size}rem`,
 
         background: `linear-gradient(to left, ${color1} 0%, ${color2} 100% )`,
       }}></div>

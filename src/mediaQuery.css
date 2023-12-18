@@ -1,19 +1,16 @@
 @media (max-width: 1200px) {
   html {
-    font-size: 58%;
+    font-size: 56%;
   }
   section {
     padding: 0 5rem;
   }
-  .grid {
-    display: block;
-    z-index: 100;
-  }
   .hero-section {
-    margin-top: 6rem;
+    margin-top: 12rem;
   }
   .section-headline {
     font-size: 5.5rem;
+    text-align: center;
     margin-bottom: 5rem;
   }
   .content {
@@ -27,7 +24,7 @@
   }
   .hero-cards {
     display: flex;
-    justify-content: center;
+
     margin-top: 6rem;
   }
   .hero-content {
@@ -43,9 +40,20 @@
     text-align: center;
   }
 }
-@media (max-width: 1200px) {
-  html {
-    font-size: 56%;
+@media (max-width: 1050px) {
+  .grid {
+    display: block;
+    z-index: 100;
+  }
+  .hero-cards {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-section {
+    margin-top: 4rem;
+  }
+  .marketing-card1 {
+    margin-top: 6rem;
   }
 }
 @media (max-width: 850px) {
@@ -61,18 +69,31 @@
   }
 }
 @media (max-width: 650px) {
+  section {
+    padding: 2.5vw;
+  }
   .card2 {
     position: absolute;
     bottom: 7%;
     left: 10%;
   }
+  .section-headline {
+    font-size: 4rem;
+  }
   .call p {
     display: none;
   }
+  .hero-content,
+  .marketing-layout {
+    width: 90vw;
+  }
 }
 @media (max-width: 500px) {
-  html {
-    font-size: 55%;
+  .content {
+    font-size: 2.5rem;
+  }
+  .hero-content h1 {
+    font-size: 4.5rem;
   }
 }
 

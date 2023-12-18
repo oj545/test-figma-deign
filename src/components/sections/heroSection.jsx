@@ -4,6 +4,9 @@ import theSun from "../../assets/theSun.jpg";
 import TarotCard from "../UI/TarotCard";
 
 function HeroSection({ whatsappUrl }) {
+  const cardContent1 =
+    "קלף השמש מביא תקווה ושמחה. אחרי החושך, השמש תזרח והאור שיגיע יישנה את חיינו.";
+
   return (
     <section className="section hero-section">
       <div className="grid max-size hero-layout  ">
@@ -27,7 +30,7 @@ function HeroSection({ whatsappUrl }) {
           </div>
         </div>
         <div className="hero-cards">
-          <TarotCard image={theSun} />
+          <TarotCard image={theSun} content={cardContent1} />
         </div>
       </div>
     </section>

@@ -11,4 +11,6 @@
 .marketing-content {
   display: flex;
   align-items: center;
+  grid-row: 1/1;
+  grid-column: 2/3;
 }
