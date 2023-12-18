@@ -1,10 +1,12 @@
 .hero-content h1 {
   font-size: 7.2rem;
   margin-bottom: 4rem;
+  margin-top: 4rem;
 }
 .hero-section {
   margin-top: 8vh;
   z-index: 100;
+  /* position: relative; */
 }
 .hero-layout {
   position: relative;

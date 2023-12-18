@@ -9,7 +9,7 @@ function MarketingSection() {
 
   return (
     <section className="section">
-      <h2 className="section-headline">התרונות התרות</h2>
+      {/* <h2 className="section-headline">התרונות התרות</h2> */}
       <div className="grid max-size marketing-layout">
         <p dir="rtl" className="marketing-content content content-center">
           קלפי טארוט מחזיקים את המפתחות לפתיחת המסתורין של המסע הייחודי של האדם.
