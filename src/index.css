@@ -5,6 +5,7 @@
 }
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -13,12 +14,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+main {
+  position: relative;
+}
 section {
   position: relative;
   display: flex;
