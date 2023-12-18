@@ -132,36 +132,6 @@ const bubbles = [
     color1: "#BBF3FD",
     color2: "#E278FF",
   },
-  {
-    size: 18,
-    position: { top: 380, left: 20 },
-    rotate: 90,
-
-    color1: "#BBF3FD",
-    color2: "#E278FF",
-  },
-  {
-    size: 12,
-    position: { top: 330, left: 10 },
-    rotate: 30,
-
-    color1: "#F8B5D3",
-    color2: "#E278FF",
-  },
-  {
-    size: 8,
-    position: { top: 330, left: 65 },
-    rotate: 30,
-    color1: "#E278FF",
-    color2: "#BBF3FD",
-  },
-  {
-    size: 27,
-    position: { top: 365, left: 80 },
-    rotate: -10,
-    color1: "#E278FF",
-    color2: "#BBF3FD",
-  },
 ];
 
 function App() {
