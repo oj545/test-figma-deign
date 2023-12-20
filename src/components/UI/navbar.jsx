@@ -1,6 +1,6 @@
 import React from "react";
 import "./CSS/navbar.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo1.png";
 import whatsApp from "../../assets/whatsApp.png";
 
 function Navbar({ whatsappUrl }) {

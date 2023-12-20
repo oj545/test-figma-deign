@@ -19,13 +19,12 @@
   height: 100%;
 }
 .logo img {
-  max-height: 4.5vh;
-  min-height: 4.5vh;
-  aspect-ratio: 16/4.5;
+  max-height: 5vh;
+  min-height: 5vh;
+  aspect-ratio: 16/5;
 }
 .call {
   display: flex;
-
   align-items: center;
 }
 .call img {
@@ -35,8 +34,9 @@
   /* transform: translateY(3px); */
 }
 .call p {
-  font-size: 2.7rem;
+  font-size: 2rem;
   color: #6b4ce7;
   font-weight: 600;
   margin-left: 1rem;
+  transform: translateY(-2px);
 }

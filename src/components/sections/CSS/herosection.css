@@ -39,7 +39,7 @@
 
   border: 1px solid #007185;
   text-decoration: none;
-  background-color: #79e9fd;
+  background-color: #9af0ff;
 }
 .whatsapp-link img {
   transform: translateY(-8%);
@@ -52,7 +52,7 @@
 .whatsapp-link p {
   display: flex;
   align-items: center;
-  color: #4d29df;
+  color: #6563ff;
   font-weight: 600;
   align-items: center;
   font-size: 2.5rem;

@@ -2,6 +2,7 @@ import React from "react";
 import "./CSS/herosection.css";
 import theSun from "../../assets/theSun.jpg";
 import TarotCard from "../UI/TarotCard";
+import whatsApp from "../../assets/whatsApp.png";
 
 function HeroSection({ whatsappUrl }) {
   const cardContent1 =
@@ -26,6 +27,7 @@ function HeroSection({ whatsappUrl }) {
           <div className="whatsapp-link">
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
               <p>לקביעת פגישה</p>
+              <img src={whatsApp} alt="" />
             </a>
           </div>
         </div>
